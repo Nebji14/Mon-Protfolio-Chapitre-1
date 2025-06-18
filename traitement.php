@@ -1,51 +1,60 @@
 <?php
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
+// Vérifie si le formulaire a été soumis
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $nom = trim($_POST["nom"]);
-    $prenom = trim($_POST["prenom"]);
-    $email = trim($_POST["email"]);
-    $telephone = trim($_POST["telephone"]);
-    $message = trim($_POST["message"]);
+    // Récupère les données du formulaire
+    $nom = $_POST["nom"];
+    $prenom = $_POST["prenom"];
+    $email = $_POST["email"];
+    $tel = $_POST["tel"];
+    $message = $_POST["message"];
 
+    // Valide les données
     if (empty($nom) || empty($email) || empty($message)) {
-        die("Tous les champs marqués * sont obligatoires.");
+        die("Tous ces champs sont obligatoires.");
     }
 
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        die("L'adresse email n'est pas valide.");
-    }
+    // Nettoie les données
+    $nom = htmlspecialchars($nom);
+    $prenom = htmlspecialchars($prenom);
+    $email = htmlspecialchars($email);
+    $tel = htmlspecialchars($tel);
+    $message = htmlspecialchars($message);
 
-    $to = "bendav@outlook.fr";
-    $subject = "Nouveau message depuis votre formulaire de contact";
+    // Affiche les données
+    echo "<b>Récapitulatif du message envoyé :</b><br>";
+    echo "Nom: " . $nom . "<br>";
+    echo "Prénom: " . $prenom . "<br>";
+    echo "Téléphone: " . $tel . "<br>";
+    echo "Email: " . $email . "<br>";
+    echo "Message: " . $message . "<br><br>";
 
-    $body = "Vous avez reçu un nouveau message :\n\n";
+    // Envoi d'email
+    $to = "contact@davidbenjamindev.fr";
+    $subject = "Nouveau Message de $prenom $nom";
+    $body = "Vous avez reçu un nouveau message depuis le site davidbenjamindev.fr.\n\n";
     $body .= "Nom : $nom\n";
     $body .= "Prénom : $prenom\n";
     $body .= "Email : $email\n";
-    $body .= "Téléphone : $telephone\n\n";
-    $body .= "Message :\n$message\n";
-    $body .= "\n---\nCe message a été envoyé depuis le formulaire de contact de votre site.\n";
-
-    $from = "contact@davidbenjamindev.fr"; // Adresse de ton domaine
-
-    $headers = "From: $from\r\n";
+    $body .= "Téléphone : $tel\n\n";
+    $body .= "Message :\n$message";
+    
+    $headers = "From: contact@davidbenjamindev.fr\r\n";
     $headers .= "Reply-To: $email\r\n";
-    $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+    $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
 
     if (mail($to, $subject, $body, $headers)) {
-        echo "Email envoyé avec succès.";
+        echo "✅ Email envoyé avec succès.<br>";
+        echo "⏳ Redirection vers la page d'accueil dans 3 secondes...";
+        echo '<script>setTimeout(function(){ window.location.href = "index.html"; }, 3000);</script>'; // Permets de rediriger sur la page d'où le "mail" a été envoyé
     } else {
-        echo "Échec de l'envoi de l'email.";
+        echo "❌ Échec de l'envoi de l'email.";
     }
 
 } else {
-    header("Location: contact.html");
-    exit();
+    // Redirection si le formulaire n'a pas été soumis
+    header("Location: index.html");
+    exit;
 }
-
 ?>
