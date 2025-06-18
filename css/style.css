@@ -914,6 +914,7 @@ aside.nav_about {
         padding: 0 1rem;
         margin-left: 10%;
         position: relative;
+        width: auto;
     }
 
     aside.nav_about {
@@ -1522,6 +1523,13 @@ footer a:hover {
     position: relative;
 }
 
+.carousel-control-prev,
+    .carousel-control-next {
+        top: auto;
+        bottom: 0;
+        width: 0 !important;
+    }
+
 
 /* F.A.Q */
 /* MODIF ACCORDEON */
@@ -1678,7 +1686,7 @@ textarea:focus {
     color: #000000;
 }
 
-small a {
+small a{
     color: #555555;
     font-weight: 500;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.50);
@@ -1686,7 +1694,7 @@ small a {
 }
 
 /* Boutons */
-form div a {
+form div input[type=submit]{
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     font-size: 1rem;
@@ -1697,10 +1705,11 @@ form div a {
     padding: 0.6rem 2rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    transition: background-color 0.5s ease;
+    box-shadow: 0.5s ease;
 }
 
-form div a:hover {
+form div input:hover {
     background-color: #E0E0E0;
     color: #000000;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);

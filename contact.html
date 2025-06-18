@@ -38,7 +38,7 @@
 
         <!-- Icônes  -->
         <div class="d-flex flex-column mt-3 gap-1">
-            <a href="#" target="_blank" title="Lien vers mon linkedIn"><i class="fa-brands fa-linkedin fa-3x"
+            <a href="www.linkedin.com/in/benjamin-david-91aa45259" target="_blank" title="Lien vers mon linkedIn"><i class="fa-brands fa-linkedin fa-3x"
                     style="color: #000000;"></i></a>
             <a href="https://github.com/Nebji14" target="_blank" title="Lien vers mon GitHub"><i class="fa-brands fa-square-git fa-3x"
                     style="color: #000000;"></i></a>
@@ -198,31 +198,36 @@
                             </p>
                         </div>
 
-                        <form class="w-100">
+                        <form class="w-100" action="traitement.php" method="post">
                             <div class="mb-3">
-                                <label for="name" class="form-label fw-bold">Nom</label>
-                                <input type="text" class="form-control" id="name" placeholder="Votre nom ...">
+                                <label for="nom" class="form-label fw-bold">Nom*</label>
+                                <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom ..." >
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="prenom" class="form-label fw-bold">Prenom</label>
+                                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prenom ...">
                             </div>
 
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-bold">E-mail*</label>
-                                <input type="email" class="form-control" id="email" placeholder="Votre e-mail ..."
-                                    required>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Votre e-mail ..."
+                                    >
                             </div>
 
                             <div class="mb-3">
-                                <label for="phone" class="form-label fw-bold">Téléphone</label>
-                                <input type="tel" class="form-control" id="phone" placeholder="Votre téléphone ...">
+                                <label for="telephone" class="form-label fw-bold">Téléphone</label>
+                                <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Votre téléphone ...">
                             </div>
 
                             <div class="mb-3">
                                 <label for="message" class="form-label fw-bold">Message*</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Votre message ..."
-                                    required></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message ..."
+                                    ></textarea>
                             </div>
 
                             <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="consent">
+                                <input class="form-check-input" type="checkbox" id="consent" required>
                                 <label class="form-check-label fw-bold" for="consent">
                                     Accepter le traitement de mes informations.
                                 </label>
@@ -238,8 +243,7 @@
                             </small>
 
                             <div class="text-center">
-                                <a href="#" title="Lien pour envoyer sur le mail" class="text-decoration-none"
-                                    p-5>Envoyer</a>
+                               <input type="submit" value="Envoyer">
                             </div>
                         </form>
 
@@ -270,13 +274,13 @@
 
                             <div class="contact-item">
                                 <i class="fa-brands fa-square-git fa-3x" style="color: #000000;"></i>
-                                <a class="text-decoration-none " href="#" title="Liens vers mon github"
+                                <a class="text-decoration-none " href="https://github.com/Nebji14" title="Liens vers mon github"
                                     target="_blank">Lien GitHub</a>
                             </div>
 
                             <div class="contact-item">
                                 <i class="fa-brands fa-linkedin fa-3x" style="color: #000000;"></i>
-                                <a class="text-decoration-none " href="#" title="lien vers mon linkedin"
+                                <a class="text-decoration-none " href="www.linkedin.com/in/benjamin-david-91aa45259" title="lien vers mon linkedin"
                                     target="_blank">Lien LinkedIn</a>
                             </div>
                         </div>
