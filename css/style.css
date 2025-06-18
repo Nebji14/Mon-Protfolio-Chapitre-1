@@ -902,7 +902,7 @@ aside.nav_about {
 /* Responsive pour mettre à la suite mes box en réduisant la page + adaptation de la direction des elements*/
 @media only screen and (max-width: 800px) {
     .container_about {
-        grid-template-areas: none;
+         grid-template-columns: 1fr;
         display: flex;
         flex-direction: column;
 
