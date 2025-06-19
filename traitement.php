@@ -16,11 +16,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Nettoie les données
-    $nom = htmlspecialchars($nom);
-    $prenom = htmlspecialchars($prenom);
-    $email = htmlspecialchars($email);
-    $tel = htmlspecialchars($tel);
-    $message = htmlspecialchars($message);
+    $nom = ($nom);
+    $prenom = ($prenom);
+    $email = ($email);
+    $tel = ($tel);
+    $message = ($message);
 
     // Affiche les données
     echo "<b>Récapitulatif du message envoyé :</b><br>";
