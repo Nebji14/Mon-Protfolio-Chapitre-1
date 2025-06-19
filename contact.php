@@ -62,6 +62,27 @@
      document.getElementById("formportfolio").submit();
    }
  </script>
+
+
+<script>
+  // Récupère la partie finale de l'URL (ex: "index.php", "about.php")
+  let currentPage = window.location.pathname.split("/").pop();
+
+  // Si aucune page n'est indiquée (ex: "/"), on considère que c'est "index.php"
+  if (currentPage === "") {
+    currentPage = "index.php";
+  }
+
+  // Sélectionne tous les liens de navigation
+  const navLinks = document.querySelectorAll("nav a");
+
+  // Compare et ajoute la classe "active" si le lien correspond
+  navLinks.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
 </body>
 
 </html>

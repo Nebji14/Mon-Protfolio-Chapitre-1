@@ -91,6 +91,10 @@ aside img:hover {
     color: black;
 }
 
+.nav_mod ul li a.active {
+  border-bottom: 4px solid #B02A2E;
+}
+
 .hover-underline {
     position: relative;
     display: inline-block;
