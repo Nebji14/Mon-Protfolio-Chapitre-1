@@ -134,6 +134,8 @@ aside img:hover {
     height: 100vh;
 }
 
+.grecaptcha-badge{left:0!important;right:unset!important;}
+
 
 /* Navigation burger plein écran */
 .mobile-nav {
@@ -1883,7 +1885,7 @@ form div input:hover {
 
 }
 
-.grecaptcha-badge{left:0!important;right:unset!important;}
+
 /* FIN DES LIEN RESEAUX */
 /* FIN DU MAIN */
 /* FIN DE LA PAGE CONTACT */
