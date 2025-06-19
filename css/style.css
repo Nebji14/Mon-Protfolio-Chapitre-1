@@ -75,13 +75,6 @@ aside img:hover {
 
 }
 
-.nav_active {
-    font-weight: bold;
-    font-style: italic;
-    color: black;
-    font-size: 2rem;
-    text-decoration: underline #B02A2E;
-}
 
 .nav_mod ul li a {
     font-family: "Roboto Mono", monospace;
@@ -271,15 +264,15 @@ aside img:hover {
 .container_index {
     display: grid;
     grid-template-areas:
-        "nav_index main_index main_index main_index main_index"
-        "nav_index main_index main_index main_index main_index"
-        "nav_index main_index main_index main_index main_index"
-        "nav_index main_index main_index main_index main_index"
-        "nav_index main_index main_index main_index main_index";
+        "nav_pages main_index main_index main_index main_index"
+        "nav_pages main_index main_index main_index main_index"
+        "nav_pages main_index main_index main_index main_index"
+        "nav_pages main_index main_index main_index main_index"
+        "nav_pages main_index main_index main_index main_index";
 }
 
 aside.nav_index {
-    grid-area: nav_index;
+    grid-area: nav_pages;
 
 }
 
@@ -490,14 +483,14 @@ main.main_index {
 .container_about {
     display: grid;
     grid-template-areas:
-        "nav_about section1_about section1_about section1_about section1_about "
-        "nav_about section1_about section1_about section1_about section1_about"
-        "nav_about section2_about section2_about section2_about section2_about"
-        "nav_about section2_about section2_about section2_about section2_about";
+        "nav_pages section1_about section1_about section1_about section1_about "
+        "nav_pages section1_about section1_about section1_about section1_about"
+        "nav_pages section2_about section2_about section2_about section2_about"
+        "nav_pages section2_about section2_about section2_about section2_about";
 }
 
-aside.nav_about {
-    grid-area: nav_about;
+aside.nav_pages {
+    grid-area: nav_pages;
 
 }
 
@@ -917,10 +910,9 @@ aside.nav_about {
         width: auto;
     }
 
-    aside.nav_about {
+   aside.nav_pages {
         position: fixed;
         z-index: 9999;
-
     }
 
     /* Flip-card principale en colonne (garde le flip) */
@@ -1051,17 +1043,17 @@ aside.nav_about {
 .container_portfolio {
     display: grid;
     grid-template-areas:
-        "nav_portfolio header_portfolio header_portfolio header_portfolio header_portfolio "
-        "nav_portfolio section1_portfolio section1_portfolio section1_portfolio section1_portfolio"
-        "nav_portfolio section1_portfolio section1_portfolio section1_portfolio section1_portfolio"
-        "nav_portfolio section2_portfolio section2_portfolio section2_portfolio section2_portfolio"
-        "nav_portfolio section2_portfolio section2_portfolio section2_portfolio section2_portfolio"
-        "nav_portfolio section3_portfolio section3_portfolio section3_portfolio section3_portfolio"
-        "nav_portfolio section3_portfolio section3_portfolio section3_portfolio section3_portfolio";
+        "nav_pages header_portfolio header_portfolio header_portfolio header_portfolio "
+        "nav_pages section1_portfolio section1_portfolio section1_portfolio section1_portfolio"
+        "nav_pages section1_portfolio section1_portfolio section1_portfolio section1_portfolio"
+        "nav_pages section2_portfolio section2_portfolio section2_portfolio section2_portfolio"
+        "nav_pages section2_portfolio section2_portfolio section2_portfolio section2_portfolio"
+        "nav_pages section3_portfolio section3_portfolio section3_portfolio section3_portfolio"
+        "nav_pages section3_portfolio section3_portfolio section3_portfolio section3_portfolio";
 }
 
-aside.nav_portfolio {
-    grid-area: nav_portfolio;
+aside.nav_pages {
+    grid-area: nav_pages;
 
 }
 
@@ -1329,7 +1321,7 @@ header {
     }
 
     /* Adaptation des liens de navigation dans le header */
-    aside.nav_portfolio {
+    aside.nav_pages {
         position: fixed;
         z-index: 9999;
     }
@@ -1414,14 +1406,14 @@ header {
 .container_contact {
     display: grid;
     grid-template-areas:
-        "nav_contact main_contact main_contact main_contact footer_contact "
-        "nav_contact main_contact main_contact main_contact footer_contact"
-        "nav_contact main_contact main_contact main_contact footer_contact"
-        "nav_contact main_contact main_contact main_contact footer_contact";
+        "nav_pages main_contact main_contact main_contact footer_contact "
+        "nav_pages main_contact main_contact main_contact footer_contact"
+        "nav_pages main_contact main_contact main_contact footer_contact"
+        "nav_pages main_contact main_contact main_contact footer_contact";
 }
 
-aside.nav_contact {
-    grid-area: nav_contact;
+aside.nav_pages {
+    grid-area: nav_pages;
 }
 
 .main_contact {
@@ -1715,6 +1707,12 @@ form div input:hover {
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
 }
 
+#rc-anchor-alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* FIN DU FORMULAIRE */
 
 
@@ -1777,10 +1775,9 @@ form div input:hover {
         position: relative;
     }
 
-    aside.nav_contact {
+    aside.nav_pages {
         position: fixed;
         z-index: 9999;
-
     }
 
     .container_contact {

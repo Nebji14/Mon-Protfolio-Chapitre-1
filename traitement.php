@@ -22,13 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tel = ($tel);
     $message = ($message);
 
-    // Affiche les données
-    echo "<b>Récapitulatif du message envoyé :</b><br>";
-    echo "Nom: " . $nom . "<br>";
-    echo "Prénom: " . $prenom . "<br>";
-    echo "Téléphone: " . $tel . "<br>";
-    echo "Email: " . $email . "<br>";
-    echo "Message: " . $message . "<br><br>";
+
 
     // Envoi d'email
     $to = "contact@davidbenjamindev.fr";
@@ -45,16 +39,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
 
     if (mail($to, $subject, $body, $headers)) {
-        echo "✅ Email envoyé avec succès.<br>";
-        echo "⏳ Redirection vers la page d'accueil dans 3 secondes...";
-        echo '<script>setTimeout(function(){ window.location.href = "index.html"; }, 3000);</script>'; // Permets de rediriger sur la page d'où le "mail" a été envoyé
+        header("Location:contact.php?msg=Message envoyé");
     } else {
-        echo "❌ Échec de l'envoi de l'email.";
+        header("Location:contact.php?msg=Echec lors de l'envoi du message");
     }
 
 } else {
     // Redirection si le formulaire n'a pas été soumis
-    header("Location: index.html");
+    header("Location:contact.php?msg=Méthode non autorisée");
     exit;
 }
 ?>
