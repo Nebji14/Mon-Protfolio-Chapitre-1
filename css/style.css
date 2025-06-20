@@ -1887,9 +1887,13 @@ form div input:hover {
         text-align: left;
     }
 
-    .grecaptcha-badge{
-        display: none!important;
-    }
+   .grecaptcha-badge{
+    left:unset!important;
+    right:0!important;
+    bottom: 80px!important;
+    width: 15%!important;
+}
+
 
 }
 
