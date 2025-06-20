@@ -23,10 +23,10 @@
                                 <li>MySQL</li>
                                 <li>JavaScript</li>
                                 <li>Php</li>
-                                <li>React</li>
-                                <li>Jquerry</li>
+                                <li>React.js</li>
+                                <li>JQuery</li>
                                 <li>Vite</li>
-                                <li>Tailwind</li>
+                                <li>Tailwind Css</li>
                                 <li>Docker</li>
                                 <li>Méthode agile (scrum)</li>
                             </ul>
