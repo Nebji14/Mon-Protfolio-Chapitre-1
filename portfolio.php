@@ -26,26 +26,28 @@
     <!-- section 3 -->
    <?php include "components/section3_portfolio.php"; ?>
 
-        <div class="grande"></div>
-
+       
+   <div class="grande"></div>
     </main>
     <!-- fin du main -->
 
 
     <footer></footer>
 
-    <!-- SCRIPT POUR BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
-    <!--  FIN DU SCRIPT POUR BOOTSTRAP -->
+  
+
+    <!-- SCRIPT POUR jquery -->
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    
+    <!--  FIN DU SCRIPT POUR jquery -->
 
 
     <!-- SCRIPT POUR AGRANDIR LES IMAGES -->
-    <script>
+ <script>
         $(function () {
 
             $(".miniature").click(function () {
+            
                 var SourcePetiteImage = $(this).attr('src');
                 var SourceGrandeImage = SourcePetiteImage.replace("petites", "grandes");
                 $(".grande").html("<img src='" + SourceGrandeImage + "'>");
@@ -59,6 +61,12 @@
         });
     </script>
     <!-- FIN DU SCRIPT POUR AGRANDIR LES IMAGES -->
+
+    <!-- SCRIPT POUR BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <!--  FIN DU SCRIPT POUR BOOTSTRAP -->
 
     <!-- Script pour ouvrir/fermer le menu burger -->
     <script>
