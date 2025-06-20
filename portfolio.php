@@ -1,23 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | DAVID Benjamin</title>
-    <meta name="description" content="Portfolio | DAVID Benjamin">
-    <meta name="author" content="DAVID Benjamin">
-    <meta name="robots" content="">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/png" href="media/logo2_small.png">
-    <!-- Ce script pour lié à la page fontawesome pour voir les logos -->
-    <script src="https://kit.fontawesome.com/975032478f.js" crossorigin="anonymous"></script>
-    <!-- LINK POUR BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <!-- SCRIPT JQUERRY POUR AGRANDIR LES IMAGES -->
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-</head>
+<!-- head -->
+    <?php include "components/head.php"; ?>
 
 
 <body class="container_portfolio min-vh-100 ">

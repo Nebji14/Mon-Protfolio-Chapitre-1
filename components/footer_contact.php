@@ -1,5 +1,5 @@
  <!-- MODIF DU FOOTER -->
-    <footer class="footer_contact d-flex flex-column justify-content-between fade-in-right">
+    <footer class="footer_contact d-flex flex-column justify-content-evenly  fade-in-right">
 
         <div class="p-2 me-2 fw-bold text-end">
 
