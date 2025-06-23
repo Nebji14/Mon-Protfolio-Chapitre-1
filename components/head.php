@@ -11,7 +11,7 @@
     	  "hashtag": "#tarteaucitron", /* Hashtag qui permet d'ouvrir le panneau de contrôle  */
     	  "cookieName": "tarteaucitron", /* Nom du cookie (uniquement lettres et chiffres) */
     
-    	  "orientation": "middle", /* Position de la bannière (top - bottom - popup - banner) */
+    	  "orientation": "bottom", /* Position de la bannière (top - bottom - popup - banner) */
        
           "groupServices": true, /* Grouper les services par catégorie */
           "showDetailsOnClick": true, /* Cliquer pour ouvrir la description */
