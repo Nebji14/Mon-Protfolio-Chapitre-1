@@ -70,7 +70,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><strong>Portfolio | DAVID Benjamin</strong></title>
+    <title>Portfolio | DAVID Benjamin</title>
     <meta name="description" content="Portfolio | DAVID Benjamin">
     <meta name="author" content="DAVID Benjamin">
     <meta name="robots" content="">
