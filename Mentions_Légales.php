@@ -55,13 +55,13 @@
     <section class="mb-5">
         <h2 class="section-subtitle">3. Propriété Intellectuelle</h2>
         <p>L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.</p>
-        <p>Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de [Votre Nom Complet].</p>
+        <p>Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de DAVID Benjamin.</p>
     </section>
 
     <section class="mb-5">
         <h2 class="section-subtitle">4. Limitations de Responsabilité</h2>
-        <p>[Votre Nom Complet] ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site [Nom du site ou votre nom], et résultant soit de l'utilisation d'un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l'apparition d'un bug ou d'une incompatibilité.</p>
-        <p>[Votre Nom Complet] ne pourra également être tenu responsable des dommages indirects (tels par exemple qu'une perte de marché ou perte d'une chance) consécutifs à l'utilisation du site [Nom du site ou votre nom].</p>
+        <p>DAVID Benjamin ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site davidbenjamindev.fr, et résultant soit de l'utilisation d'un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l'apparition d'un bug ou d'une incompatibilité.</p>
+        <p>DAVID Benjamin ne pourra également être tenu responsable des dommages indirects (tels par exemple qu'une perte de marché ou perte d'une chance) consécutifs à l'utilisation du site davidbenjamindev.fr.</p>
     </section>
 
     <section class="mb-5">
@@ -72,7 +72,7 @@
 
     <section class="mb-5">
         <h2 class="section-subtitle">6. Droit Applicable et Attribution de Juridiction</h2>
-        <p>Tout litige en relation avec l'utilisation du site [Nom du site ou votre nom] est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de [Votre Ville, ou ville du Tribunal de Commerce compétent si vous êtes professionnel].</p>
+        <p>Tout litige en relation avec l'utilisation du site davidbenjamindev.fr est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de la ville de Sallaumines.</p>
     </section>
 
     <section class="mb-5">

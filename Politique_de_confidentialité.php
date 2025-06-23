@@ -86,7 +86,7 @@
             <li><strong>Droit de retirer votre consentement :</strong> Lorsque le traitement de vos données est fondé sur votre consentement, vous avez le droit de retirer ce consentement à tout moment.</li>
             <li><strong>Droit de déposer une plainte :</strong> Si vous estimez que vos droits n'ont pas été respectés, vous pouvez déposer une plainte auprès de la CNIL en France.</li>
         </ul>
-        <p>Pour exercer l'un de ces droits, veuillez nous contacter à [Votre Adresse E-mail].</p>
+        <p>Pour exercer l'un de ces droits, veuillez nous contacter à bendav@outlook.fr.</p>
     </section>
 
     <section class="mb-5">
@@ -110,7 +110,7 @@
     <section class="mb-5">
         <h2 class="section-subtitle">9. Modifications de cette Politique de Confidentialité</h2>
         <p>Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page. Nous vous conseillons de consulter cette Politique de Confidentialité périodiquement pour tout changement.</p>
-        <p>Cette politique est effective à partir du [Date de dernière mise à jour, ex: 13 juin 2025].</p>
+        <p>Cette politique est effective à partir du 23/06/2025.</p>
     </section>
 
     <section class="mb-5">
