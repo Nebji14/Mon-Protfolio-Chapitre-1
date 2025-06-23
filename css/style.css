@@ -1719,6 +1719,10 @@ form div input:hover {
     justify-content: center;
     align-items: center;
 }
+/* cacher le recapcha */
+.grecaptcha-badge{
+    visibility: hidden;
+}
 
 /* FIN DU FORMULAIRE */
 
