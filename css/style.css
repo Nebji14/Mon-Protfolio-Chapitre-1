@@ -1721,8 +1721,8 @@ form div input:hover {
 }
 /* cacher le recapcha */
 .grecaptcha-badge{
-    visibility: hidden;
-}
+    visibility: hidden!important;
+} 
 
 /* FIN DU FORMULAIRE */
 
@@ -1892,12 +1892,7 @@ form div input:hover {
         text-align: left;
     }
 
-   .grecaptcha-badge{
-    left:unset!important;
-    right:0!important;
-    bottom: 80px!important;
-    width: 15%!important;
-}
+ 
 
 
 }

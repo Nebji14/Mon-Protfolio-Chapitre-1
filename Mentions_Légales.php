@@ -67,12 +67,18 @@
     <section class="mb-5">
         <h2 class="section-subtitle">5. Gestion des Données Personnelles</h2>
         <p>En France, les données personnelles sont notamment protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l'article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.</p>
-        <p>Une politique de confidentialité détaillée concernant le traitement de vos données personnelles est disponible à l'adresse suivante : <a href="Politique_de_confidentialité.html" class="content-link">Politique de Confidentialité</a>.</p>
+        <p>Une politique de confidentialité détaillée concernant le traitement de vos données personnelles est disponible à l'adresse suivante : <a href="Politique_de_confidentialité.php" class="content-link">Politique de Confidentialité</a>.</p>
     </section>
 
     <section class="mb-5">
         <h2 class="section-subtitle">6. Droit Applicable et Attribution de Juridiction</h2>
         <p>Tout litige en relation avec l'utilisation du site [Nom du site ou votre nom] est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de [Votre Ville, ou ville du Tribunal de Commerce compétent si vous êtes professionnel].</p>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="section-subtitle">10. Règles de Conditions d'utilisation de Google Google reCAPTCHA</h2>
+        <a href="https://policies.google.com/terms?hl=fr">Lien vers les Conditions d'utilisation de Google</a>
+        
     </section>
 </main>
     <!-- FIN DU MAIN -->

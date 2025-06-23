@@ -112,6 +112,12 @@
         <p>Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page. Nous vous conseillons de consulter cette Politique de Confidentialité périodiquement pour tout changement.</p>
         <p>Cette politique est effective à partir du [Date de dernière mise à jour, ex: 13 juin 2025].</p>
     </section>
+
+    <section class="mb-5">
+        <h2 class="section-subtitle">10. Règles de confidentialité Google reCAPTCHA</h2>
+        <a href="https://policies.google.com/privacy?hl=fr">Lien vers les Règles de confidentialité Google reCAPTCHA</a>
+        
+    </section>
 </main>
     <!-- FIN DU MAIN -->
 
