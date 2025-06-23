@@ -76,7 +76,7 @@
     </section>
 
     <section class="mb-5">
-        <h2 class="section-subtitle">10. Règles de Conditions d'utilisation de Google Google reCAPTCHA</h2>
+        <h2 class="section-subtitle">7. Règles de Conditions d'utilisation de Google Google reCAPTCHA</h2>
         <a href="https://policies.google.com/terms?hl=fr">Lien vers les Conditions d'utilisation de Google</a>
         
     </section>
