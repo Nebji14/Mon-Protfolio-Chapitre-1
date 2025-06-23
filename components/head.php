@@ -67,6 +67,19 @@
 (tarteaucitron.job = tarteaucitron.job || []).push('gcmanalyticsstorage');
 </script>
 
+<!-- reCAPTCHA -->
+ <script>
+tarteaucitron.user.recaptchaapi = '6LcBPmYrAAAAAL27y2HGdyVEAHL1ZnBMMTNpv2kF';
+(tarteaucitron.job = tarteaucitron.job || []).push('recaptcha');
+</script>
+
+<!-- font -->
+
+<script>
+tarteaucitron.user.googleFonts = 'families';
+(tarteaucitron.job = tarteaucitron.job || []).push('googlefonts');
+</script>
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
