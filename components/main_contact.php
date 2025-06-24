@@ -20,6 +20,11 @@
                             </p>
                         </div>
 
+                        <?php if (!empty($_GET["msg"])): ?>
+                                    <p class="alert alert-dark" role="alert">
+                                    <?php echo htmlspecialchars($_GET["msg"]); ?></p>
+                            <?php endif; ?>
+                            
                         <form id="formportfolio" class="w-100" action="traitement.php" method="post">
                             <div class="mb-3">
                                 <label for="nom" class="form-label fw-bold">Nom*</label>
@@ -63,7 +68,7 @@
                                     class="text-decoration-none">politique de
                                     confidentialité</a>.
                             </small>
-                            <p><?php echo $_GET["msg"] ?></p>
+                            
                             <div class="text-center">
                                <input class="g-recaptcha" 
                                     data-sitekey="6LcBPmYrAAAAAL27y2HGdyVEAHL1ZnBMMTNpv2kF" 
