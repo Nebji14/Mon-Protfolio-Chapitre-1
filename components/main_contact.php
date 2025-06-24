@@ -20,10 +20,9 @@
                             </p>
                         </div>
 
-                        <?php if (!empty($_GET["msg"])): ?>
-                                    <p class="alert alert-dark" role="alert">
-                                    <?php echo htmlspecialchars($_GET["msg"]); ?></p>
-                            <?php endif; ?>
+                        <!-- message envoyé -->
+                        <?php if (!empty($_GET["msg"])){
+                            echo "<p class='alert alert-dark' role'alert'>".htmlspecialchars($_GET["msg"])."</p>";}?>
                             
                         <form id="formportfolio" class="w-100" action="traitement.php" method="post">
                             <div class="mb-3">
