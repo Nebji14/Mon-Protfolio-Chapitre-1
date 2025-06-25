@@ -43,14 +43,13 @@
 
 <!-- API Captcha -->
     
-
     <script>
    function onSubmit(token) {
      document.getElementById("formportfolio").submit();
    }
  </script>
 
-
+<!-- Nav active -->
 <script>
   // Récupère la partie finale de l'URL (ex: "index.php", "about.php")
   let currentPage = window.location.pathname.split("/").pop();
@@ -70,6 +69,16 @@
     }
   });
 </script>
+
+
+<!-- Dates copyright automatique -->
+<script>
+ const Date_Jour = new Date();
+document.getElementById("span-Date").innerHTML =  Date_Jour.getFullYear();
+</script>
+
+
+
 </body>
 
 </html>

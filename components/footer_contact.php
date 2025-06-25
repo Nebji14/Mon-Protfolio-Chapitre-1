@@ -4,7 +4,7 @@
         <div class="p-2 me-2 fw-bold text-end">
 
             <p>Benjamin DAVID</p>
-            <p>©Copyright 2025 Benjamin DAVID</p>
+            <p>©Copyright <span id="span-Date"></span> Benjamin DAVID</p>
             <p>En formation DWWM</p>
         </div>
 
