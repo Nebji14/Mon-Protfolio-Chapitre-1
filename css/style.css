@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+
+/* Page Welcome */
+#block_ben{
+    margin-top: -200vh;
+    transition: .5s;
+}
+
+.gradient-background {
+  background: linear-gradient(333deg,#000000,#161617,#262629,#414144);
+  background-size: 240% 240%;
+  animation: gradient-animation 28s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* BODY ET TITRES */
 html {
     scroll-behavior: smooth;
