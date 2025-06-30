@@ -1419,6 +1419,7 @@ header {
     /* Espacement des images affichées en grand */
     .grande img {
         width: 100%;
+        z-index: 10000;
     }
 }
 

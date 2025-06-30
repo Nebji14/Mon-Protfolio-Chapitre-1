@@ -22,7 +22,7 @@
                                 <li>Phpmyadmin</li>
                                 <li>MySQL</li>
                                 <li>JavaScript</li>
-                                <li>Php</li>
+                                <li>NodeJs</li>
                                 <li>React.js</li>
                                 <li>JQuery</li>
                                 <li>Vite</li>
